@@ -1,0 +1,261 @@
+:root {
+    --primary-color: #8843f2;
+    --primary-color-900: #5319ac;
+    --primary-transparent: rgba(136, 67, 242, 0);
+    
+    --secondary-color: #abf143;
+
+    --glassmorph-bg: rgba(255, 255, 255, .25);
+    --glassmorph-border: rgba(255, 255, 255, .18);
+
+    --error-color: #C91432;
+    --gray-color: #222222;
+    --body-color: #080c24;
+    --body-color-invert: #f5efff;
+    --body-color-light: #131835;
+    --spotify-color: #1ED760;
+    --theme-text: #f5eded;
+    --theme-text-invert: #0a1212;
+}
+
+[data-theme="light"] {
+    --primary-transparent: rgba(171, 241, 67, 0);
+    
+    --glassmorph-bg: rgba(0, 0, 0, .25);
+    --glassmorph-border: rgba(0, 0, 0, .18);
+
+    --body-color: #f5efff;
+    --body-color-invert: #080c24;
+    --body-color-light: #eee4ff;
+    --theme-text: #0a1212;
+    --theme-text-invert: #f5eded;
+}
+
+::-moz-selection {
+    color: var(--theme-text);
+    background: var(--primary-color-900);
+}
+
+::selection {
+    color: var(--theme-text);
+    background: var(--primary-color-900);
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    cursor: none;
+}
+
+:hover {
+    cursor: none;
+}
+
+body {
+    font-size: clamp(0.875rem, 0.8154rem + 0.2981vw, 1rem);
+    color: var(--theme-text);
+    background-color: var(--body-color);
+    transition: all .3s ease;
+}
+
+body::before,
+body::after {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    content: '';
+    pointer-events: none;
+}
+
+body::before {
+    filter: url(#f);
+    background-color: var(--body-color);
+    mix-blend-mode: overlay;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4 {
+    font-weight: 600;
+}
+
+h6,
+.h6 {
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* lenis */
+html.lenis {
+    height: auto;
+}
+
+.lenis.lenis-smooth {
+    scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+    overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+    pointer-events: none;
+}
+/* lenis ends */
+
+/* utils */
+.os-scrollbar .os-scrollbar-handle {
+    background: var(--body-color-invert) !important;
+}
+.button-reset {
+    background-color: transparent;
+    border: 0;
+}
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+
+.theme_button {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    color: var(--theme-text);
+    border-radius: 10px;
+    background: var(--glassmorph-bg);
+    backdrop-filter: blur(7px);
+    border: 1px solid var(--glassmorph-border);
+    box-shadow: 0 10px 30px -15px var(--primary-color-900);
+    transition: all .3s ease
+}
+
+.theme_button:hover {
+    transform: translateY(-5px)
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.secondary-color {
+    color: var(--secondary-color);
+}
+
+.spacer-y {
+    padding: 70px 0;
+}
+
+.small-text {
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+/* custom components stylings */
+#trail-cursor {
+    position: fixed;
+    display: block;
+    border-radius: 0;
+    transform-origin: center center;
+    mix-blend-mode: difference;
+    top: 0;
+    left: 0;
+    z-index: 10000000000000000;
+}
+
+.circle {
+    pointer-events: none;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.link {
+    color: var(--theme-text);
+    --size: 1rem;
+    height: calc(var(--size) * 1.5);
+    overflow: hidden;
+    font-size: var(--size);
+    display: inline-block;
+}
+
+.link:hover .letters {
+    transform: translateY(-100%);
+}
+
+.link .block:last-child {
+    color: var(--primary-color);
+}
+
+.link .letters {
+    display: inline-block;
+    transition: all 0.6s cubic-bezier(0.76, 0, 0.024, 1);
+}
+
+/* custom components stylings ends */
+
+/* utils ends */
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 70%;
+    }
+}
+
+@media (max-width: 991px) {
+    #trail-cursor {
+        display: none;
+    }
+}
+
+/* @media (max-width: 767px) {
+    .link {
+        --size: 2.5rem;
+    }   
+} */
+
+@media (max-width: 575px) {
+    .spacer-y {
+        padding: 40px 0;
+    }
+}

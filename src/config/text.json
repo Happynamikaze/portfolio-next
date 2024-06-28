@@ -1,0 +1,263 @@
+{
+    "titles": {
+        "intro": "Hello!<span>👋🏻</span>, I'm <span class=\"primary-color\">Sarabjeet Singh.</span>",
+        "about": ".about<span class=\"primary-color\">(me)</span>;",
+        "experience": ".experience<span class=\"primary-color\">(work)</span>;",
+        "tech": ".techSkills<span class=\"primary-color\">()</span>;",
+        "work": ".work<span class=\"primary-color\">()</span>;",
+        "recent": ".recentWatch<span class=\"primary-color\">()</span>;",
+        "social": ".find<span class=\"primary-color\">(me)</span>;"
+    },
+    "subText": {
+        "introSub": "I'm a <span class=\"age\"></span>-years-old Front-End Developer & Graphic Designer!!",
+        "techSub": "A list of my favorite tools and technologies that I use on a regular basis.",
+        "expSub": "Here's a brief rundown of my most recent experiences.",
+        "recentSub": "My recent watched Movies and TV Series & recently read books."
+    },
+    "aboutText": {
+        "1": "I am a <span class=\"age\"></span>-year-old <span class=\"primary-color fw-bold\">Front-End Web Developer & Graphic Designer</span> proficient in both fields. With 2 years of Front-End Development and 3 years of Graphic Designing experience, I've built and maintained numerous websites for clients.",
+        "2": "I am passionate about the technology industry and want to get involved in new opportunities."
+    },
+    "experiences": {
+        "1": {
+            "companyName": "Heart It Out",
+            "designation": "Front-End Web Developer",
+            "year": "// Oct 2023 - Present",
+            "description": "Currently I am working as Web Developer at <span class=\"primary-color fw-bold\">Heart It Out</span>."
+        },
+        "2": {
+            "companyName": "Axionic Software",
+            "designation": "Web Developer & Graphic Designer",
+            "year": "// Jun 2021 - Oct 2021",
+            "description": "Worked at <span class=\"primary-color fw-bold\">Axionic Software</span> for 5 Months as a Web Developer and Graphic Designer Intern."
+        }
+        
+    },
+    "workText": {
+        "1": "I've been making various types of projects some of them were basics and some of them were complicated."
+    },
+    "footer": {
+        "copyright": "WarClouser"
+    },
+    "techCard": {
+        "img": {
+            "1": "\/images\/tech-images\/html.svg",
+            "2": "\/images\/tech-images\/css.svg",
+            "3": "\/images\/tech-images\/js.svg",
+            "4": "\/images\/tech-images\/bootstrap.svg",
+            "5": "\/images\/tech-images\/tailwind.svg" ,
+            "6": "\/images\/tech-images\/photoshop.svg" ,
+            "7": "\/images\/tech-images\/illustrator.svg" ,
+            "8": "\/images\/tech-images\/nextjs.svg",
+            "9": "\/images\/tech-images\/gsap.svg",
+            "10": "\/images\/tech-images\/ae.svg",
+            "11": "\/images\/tech-images\/java-logo.svg",
+            "12": "\/images\/tech-images\/jquery.svg",
+            "13": "\/images\/tech-images\/oxygen.svg",
+            "14": "\/images\/tech-images\/git.svg",
+            "15": "\/images\/tech-images\/github.svg",
+            "16": "\/images\/tech-images\/markdown.svg",
+            "17": "\/images\/tech-images\/sass.svg",
+            "18": "\/images\/tech-images\/c.svg",
+            "19": "\/images\/tech-images\/react.svg" ,
+            "20": "\/images\/tech-images\/cpp.svg",
+            "21": "\/images\/tech-images\/php.svg",
+            "22": "\/images\/tech-images\/angular.svg" ,
+            "23": "\/images\/tech-images\/wordpress.svg",
+            "24": "\/images\/tech-images\/xd.svg",
+            "25": "\/images\/tech-images\/astro.svg",
+            "26": "\/images\/tech-images\/canva.svg"
+        },
+        "techText": {
+            "1": "HTML5",
+            "2": "CSS3",
+            "3": "JavaScript",
+            "4": "Bootstrap",
+            "5": "Tailwind CSS",
+            "6": "Adobe Photoshop",
+            "7": "Adobe Illustrator",
+            "8": "Next.js",
+            "9": "GSAP - GreenSock",
+            "10": "Adobe After Effects",
+            "11": "Java",
+            "12": "jQuery",
+            "13": "Oxygen Builder",
+            "14": "Git",
+            "15": "GitHub",
+            "16": "Markdown",
+            "17": "SASS",
+            "18": "C Programming Language",
+            "19": "React JS",
+            "20": "C++ Programming Language",
+            "21": "PHP",
+            "22": "Angular",
+            "23": "WordPress",
+            "24": "Adobe XD",
+            "25": "Astro Framework",
+            "26": "Canva"
+        },
+        "techCat": {
+            "1": "webDev",
+            "2": "webDev",
+            "3": "webDev",
+            "4": "webDesign",
+            "5": "webDesign",
+            "6": "gfxDesign",
+            "7": "gfxDesign",
+            "8": "webDev",
+            "9": "webDesign",
+            "10": "gfxDesign",
+            "11": "toLearn",
+            "12": "webDev",
+            "13": "webDev",
+            "14": "webDev",
+            "15": "webDev",
+            "16": "toLearn",
+            "17": "webDesign",
+            "18": "toLearn",
+            "19": "webDev",
+            "20": "toLearn",
+            "21": "webDev",
+            "22": "webDev",
+            "23": "cms",
+            "24": "webDev",
+            "25": "webDev",
+            "26": "gfxDesign"
+
+        },
+        "category": {
+            "1": "all",
+            "2": "webDev",
+            "3": "webDesign",
+            "4": "cms",
+            "5": "gfxDesign",
+            "6": "toLearn"
+        }
+    },
+    "roles": {
+        "1": "Web Developer",
+        "2": "UI Designer",
+        "3": "Graphic Designer",
+        "4": "Backend Developer"
+    },
+    "projects": {
+        "1": {
+            "img": "\/images\/project-images\/mindbodybliss.png",
+            "name": "MindBody Bliss",
+            "desc": "I developed a blog website using HTML, CSS, and JavaScript, complete with an admin panel UI. When users upload a blog, it appears in their account, displaying the total number of blogs they've created. This project was implemented at my current company, Heart It Out, and features full responsiveness, sliders, multiple blog pages, and blog shuffling. It ensures fast loading and seamless data and blog display.",
+            "link": "https://mindbodybliss.in/",
+            "techstack": {
+                "1": "HTML",
+                "2": "CSS",
+                "3": "JS",
+                "4": "Bootstrap",
+                "5": "Oxygen Builder"
+            },
+            "bg": "#8ac0e0"
+        },
+        "2": {
+            "img": "\/images\/project-images\/Believe.png",
+            "name": "Believe by HIO",
+            "desc": "I developed a Chrome extension that displays motivational quotes on every new tab and refresh. It also features a dynamic sun that moves based on the time of day in the live version. Recently, I enhanced it with a scenic background featuring grass and more elements using HTML, CSS, and JavaScript. I plan to further expand its functionality soon.",
+            "link": "https://chromewebstore.google.com/detail/nbajbonmfjpkleamoonahcgchplllakd",
+            "techstack": {
+                "1": "HTML",
+                "2": "CSS",
+                "3": "JS"
+            },
+            "bg": "#d8f1ed"
+        },
+        "3": {
+            "img": "\/images\/project-images\/RP_img.png",
+            "name": "Rangla Punjab",
+            "desc": "I developed the Rangla Punjab website during my internship. It's responsive and fully adaptable to different screen sizes. With a robust backend, data updates from the backend don't disrupt the frontend code. The website is highly optimized and efficient.",
+            "link": "https://happynamikaze.github.io/dance_theme_main/",
+            "techstack": {
+                "1": "HTML",
+                "2": "CSS",
+                "3": "jQuery",
+                "4": "Bootstrap",
+                "5": "Firebase"
+            },
+            "bg": "#fcd690"
+        },
+        "4": {
+            "img": "\/images\/project-images\/SHR_img.png",
+            "name": "Shree Motors",
+            "desc": "I developed the Shree Mothers website from scratch, focusing on creating a comprehensive platform for repeat use. It boasts full responsiveness, ensuring it functions seamlessly on all devices and screen sizes. The website incorporates robust backend functionality, enabling efficient data storage and management. This project was designed to cater specifically to the needs of its users, providing a user-friendly experience and reliable performance.",
+            "link": "https://happynamikaze.github.io/Shree-Motors/",
+            "techstack": {
+                "1": "HTML",
+                "2": "CSS",
+                "3": "JS",
+                "4": "Bootstrap"
+            },
+            "bg": "#ffb400"
+        },
+        "5": {
+            "img": "\/images\/project-images\/ARA_img.png",
+            "name": "Arachnomesh",
+            "desc": "I developed the Arachnomesh website, leveraging GSAP for captivating bottle animations. This project was crafted using HTML, CSS, and JavaScript, ensuring it is fully responsive and adaptable across various devices. Arachnomesh incorporates advanced animation techniques to enhance user engagement and interaction. With a focus on seamless integration and performance optimization, the website delivers a dynamic and visually appealing experience.",
+            "link": "https://happynamikaze.github.io/intern-p/",
+            "techstack": {
+                "1": "HTML",
+                "2": "CSS",
+                "3": "JS",
+                "4": "Bootstrap",
+                "5": "GSAP"
+
+            },
+            "bg": "#0d0d0d"
+        },
+        "6": {
+            "img": "\/images\/project-images\/10_img.png",
+            "name": "10 ON 10",
+            "desc": "I designed the 10 on 10 Store, a food order website UI, during my internship. This project features a comprehensive range of products showcased through sliders, ensuring a responsive and visually appealing layout. The design emphasizes a pleasing aesthetic with carefully selected font sizes and styles to enhance readability and overall user experience. It was created using HTML, CSS, and JavaScript, focusing on delivering a seamless and efficient platform for food ordering.",
+            "link": "https://happynamikaze.github.io/10ontenStore/",
+            "techstack": {
+                "1": "HTML",
+                "2": "CSS",
+                "3": "jQuery",
+                "4": "Bootstrap"
+            },
+            "bg": "#C2814E"
+        }
+    },
+    "watch": {
+        "1": {
+            "poster": "\/images\/show-poster\/demon slayer.jpg",
+            "status": "Watching",
+            "name": "Demon Slayer",
+            "category": "// Anime",
+            "rating": "9.5/10"
+        },
+        "2": {
+            "poster": "\/images\/show-poster\/baki.jpg",
+            "status": "Watching",
+            "name": "Baki Hanma",
+            "category": "// Anime",
+            "rating": "10/10"
+        },
+        "3": {
+            "poster": "\/images\/show-poster\/Boruto.jpg",
+            "status": "Reading",
+            "name": "Boruto",
+            "category": "// Manga",
+            "rating": "9/10"
+        },
+        "4": {
+            "poster": "\/images\/show-poster\/vinland saga.jpg",
+            "status": "Watched",
+            "name": "Vinland Saga",
+            "category": "// Anime",
+            "rating": "10/10"
+        },
+        "5": {
+            "poster": "\/images\/show-poster\/naruto.webp",
+            "status": "Watched",
+            "name": "Naruto",
+            "category": "// Anime ",
+            "rating": "10/10"
+        }
+    }
+}
