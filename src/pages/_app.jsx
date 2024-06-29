@@ -8,6 +8,8 @@ import Header from '@/components/header/header';
 import Footer from "@/components/footer/footer";
 import { useEffect } from 'react';
 import Lenis from '@studio-freight/lenis'
+import BgMusic from "@/components/bg-music/bgmusic"
+
 
 export default function MyApp({ Component, pageProps }) {
 
@@ -64,6 +66,7 @@ export default function MyApp({ Component, pageProps }) {
     <div className={spaceMono.className}>
       <Header />
       <Component {...pageProps} />
+      <BgMusic/>
       <Footer />
     </div>
   )

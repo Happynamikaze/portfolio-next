@@ -5,7 +5,6 @@ import Social from "./homepage/social-section/social"
 import MarqueeText from "./homepage/scroll-marquee/marqueeText"
 import Experience from "./homepage/experience/experience"
 import RecentWatch from "./homepage/recent-watch/recentWatch"
-import BgMusic from "@/components/bg-music/bgmusic"
 
 export default function Index() {
     return (
@@ -20,7 +19,6 @@ export default function Index() {
                 <Experience/>
                 <RecentWatch/>
                 <Social />
-                <BgMusic/>
             </main>
         </>
     )

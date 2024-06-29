@@ -1,7 +1,6 @@
 import Head from "next/head";
 import WorkIntro from "./workpage/workIntro";
 import Experience from "./homepage/experience/experience";
-import BgMusic from "@/components/bg-music/bgmusic"
 
 export default function Work() {
     return(
@@ -11,7 +10,6 @@ export default function Work() {
             </Head>
             <Experience/>
             <WorkIntro/>
-            <BgMusic/>
 
         </>
     )
